@@ -1,0 +1,67 @@
+/* Estilos para el contenedor del banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e2a47; /* Color de fondo azul oscuro */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  /* Contenido a la izquierda (Título, Subtítulo, Descripción) */
+  .banner__content {
+    color: white;
+    max-width: 60%;
+  }
+  
+  /* Título principal */
+  .banner__title {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    color: #00bcd4; /* Color azul claro */
+  }
+  
+  /* Subtítulo */
+  .banner__subtitle {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ff9800; /* Color naranja */
+  }
+  
+  /* Descripción */
+  .banner__description {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #e0e0e0;
+  }
+  
+  /* Contenedor para la imagen */
+  .banner__image {
+    max-width: 35%;
+  }
+  
+  .banner__img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover; /* Asegura que la imagen se recorte si es necesario */
+  }
+  
+  @media (max-width: 768px) {
+    /* Para pantallas pequeñas, la imagen se apilará encima del texto */
+    .banner {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner__content {
+      max-width: 100%;
+    }
+  
+    .banner__image {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
