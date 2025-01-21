@@ -1,33 +1,24 @@
 import React from "react";
-import "./Card.css"; // Importamos los estilos
-import Button from "../Button/Button"; // Importamos el componente Button
+import "./Card.css";
 
-function Card({ imageSrc, title, description, onEdit, onDelete }) {
+const Card = ({ logo, title, description }) => {
   return (
     <div className="card">
-      <div className="card__image">
-        <img src={imageSrc} alt={title} />
+      <div className="card-header">
+        <div className="card-logo">{logo}</div>
       </div>
-      <div className="card__content">
-        <h3 className="card__title">{title}</h3>
-        <p className="card__description">{description}</p>
-        <div className="card__buttons">
-          <Button
-          text="Borrar"
-            label="Editar"
-            onClick={onEdit} // Acción que se ejecuta cuando se hace clic
-            className="card__button card__edit"
-          />
-          <Button
-            text="Borrar"
-            onClick={onDelete} // Acción que se ejecuta cuando se hace clic
-            className="card__button card__delete"
-          />
+      <div className="card-body">
+        <h2 className="card-title">{title}</h2>
+        <p className="card-description">{description}</p>
+        <div className="card-buttons">
+          <button className="button-primary"><i class="bi bi-trash-fill"></i> Borrar</button>
+          <button className="button-secondary"><i class="bi bi-pencil-fill"></i> Editar</button>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Card;
+
 

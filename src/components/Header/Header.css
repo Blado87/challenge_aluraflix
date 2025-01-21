@@ -1,24 +1,21 @@
-/* Estilo del contenedor principal */
 .header {
-    display: flex; /* Flexbox para organizar elementos */
-    justify-content: space-between; /* Espacio entre logo y botones */
-    align-items: center; /* Centrado vertical */
-    padding: 10px 20px; /* Espaciado interno */
-    background-color: #000; /* Fondo negro */
-    color: #fff; /* Texto blanco */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    width: 100%;
-  }
-  
-  /* Estilo del logo */
-  .header__logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  /* Contenedor de los botones */
-  .header__buttons {
-    display: flex;
-    gap: 10px; /* Espaciado entre botones */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #1a202c;
+  width: 100%;
+  border-bottom: 1px solid #374151;
+
+}
+
+.header__logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 10px;
+}

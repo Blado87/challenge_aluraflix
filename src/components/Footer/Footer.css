@@ -1,19 +1,17 @@
-/* Contenedor del footer */
 .footer {
-    display: flex; /* Flexbox para centrar contenido */
-    justify-content: center; /* Centrado horizontal */
-    align-items: center; /* Centrado vertical */
-    height: 60px; /* Altura del footer */
-    background-color: #000; /* Fondo negro */
-    color: #fff; /* Texto blanco */
-    font-size: 18px;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera en la parte superior */
-    width: 100%;
-  }
-  
-  /* Texto del footer */
-  .footer__text {
-    margin: 0;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #1a202c;
+  font-size: 18px;
+  width: 100%;
+  border-top: 1px solid #374151;
+}
+
+.footer__text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2563eb;
+}

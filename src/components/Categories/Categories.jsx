@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Card/Card"; // Importamos el componente Card
-import "./Categories.css"; // Estilos para las categorías
+import Card from "../Card/Card";
+import "./Categories.css";
 
 function Categories() {
   return (

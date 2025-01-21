@@ -1,14 +1,14 @@
 import React from "react";
-import Button from "../Button/Button"; // Importamos el botón reutilizable
-import "./Header.css"; // Importamos los estilos del Header
+import Button from "../Button/Button";
+import "./Header.css";
 
 function Header() {
   return (
     <header className="header">
       <div className="header__logo">AluraFlix</div>
       <div className="header__buttons">
-        <Button text="Home" styleType="default" />
-        <Button text="Nuevo Video" styleType="success" />
+      <Button text="HOME" variant="blue" />
+      <Button text="NUEVO VIDEO" variant="white" />
       </div>
     </header>
   );

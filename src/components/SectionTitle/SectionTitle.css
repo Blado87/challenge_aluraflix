@@ -1,0 +1,67 @@
+/* SectionTitle.css */
+.section-title {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.section-title h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 0.3rem;
+}
+
+.text-orange {
+  color: #ed8936;
+}
+
+.text-green {
+  color: #48bb78;
+}
+
+.text-cyan {
+  color: #0bc5ea;
+}
+
+.text-purple {
+  color: #9f7aea;
+}
+
+.text-pink {
+  color: #ed64a6;
+}
+
+.text-default {
+  color: #a0aec0;
+}
+
+.underline {
+  width: 30%;
+  height: 4px;
+  margin-top: 0;
+  border-radius: 1px;
+}
+
+.line-orange {
+  background-color: #ed8936;
+}
+
+.line-green {
+  background-color: #48bb78;
+}
+
+.line-cyan {
+  background-color: #0bc5ea;
+}
+
+.line-purple {
+  background-color: #9f7aea;
+}
+
+.line-pink {
+  background-color: #ed64a6;
+}
+
+.line-default {
+  background-color: #a0aec0;
+}
+

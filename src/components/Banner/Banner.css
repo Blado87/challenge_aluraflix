@@ -1,67 +1,68 @@
-/* Estilos para el contenedor del banner */
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1e2a47; /* Color de fondo azul oscuro */
-    padding: 40px;
-    border-radius: 10px;
-    margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  border-bottom: 1px solid #374151;
+}
+
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+  max-width: 40%;
+}
+
+.banner__title {
+  font-size: 3em;
+  margin: 0;
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+.banner__subtitle {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 10px 0;
+  color: #fafafa;
+}
+
+/* Descripción */
+.banner__description {
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #d4d4d4;
+}
+
+
+.banner__image {
+  max-width: 50%;
+
+}
+
+.patron {
+  opacity: 1;
+  background-image: linear-gradient(#1e293b 0.9px, transparent 0.9px), linear-gradient(to right, #1e293b 0.9px, #1a202c 0.9px);
+  background-size: 18px 18px;
+}
+
+@media (max-width: 768px) {
+
+  /* Para pantallas pequeñas, la imagen se apilará encima del texto */
+  .banner {
+    flex-direction: column;
+    text-align: center;
   }
-  
-  /* Contenido a la izquierda (Título, Subtítulo, Descripción) */
+
   .banner__content {
-    color: white;
-    max-width: 60%;
+    max-width: 100%;
   }
-  
-  /* Título principal */
-  .banner__title {
-    font-size: 3em;
-    margin: 0;
-    font-weight: bold;
-    color: #00bcd4; /* Color azul claro */
-  }
-  
-  /* Subtítulo */
-  .banner__subtitle {
-    font-size: 1.5em;
-    margin: 10px 0;
-    color: #ff9800; /* Color naranja */
-  }
-  
-  /* Descripción */
-  .banner__description {
-    font-size: 1.1em;
-    line-height: 1.5;
-    color: #e0e0e0;
-  }
-  
-  /* Contenedor para la imagen */
+
   .banner__image {
-    max-width: 35%;
+    max-width: 100%;
+    margin-top: 20px;
   }
-  
-  .banner__img {
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover; /* Asegura que la imagen se recorte si es necesario */
-  }
-  
-  @media (max-width: 768px) {
-    /* Para pantallas pequeñas, la imagen se apilará encima del texto */
-    .banner {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .banner__content {
-      max-width: 100%;
-    }
-  
-    .banner__image {
-      max-width: 100%;
-      margin-top: 20px;
-    }
-  }
-  
+}
