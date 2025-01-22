@@ -1,0 +1,76 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "name": "Frontend",
+      "cards": [
+        {
+          "id": 1,
+          "logo": "html.png",
+          "title": "HTML",
+          "description": "Tecnología base para la creación de estructuras web."
+        },
+        {
+          "id": 2,
+          "logo": "css.png",
+          "title": "CSS",
+          "description": "Lenguaje de estilos para diseñar y maquetar páginas web."
+        },
+        {
+          "id": 3,
+          "logo": "js.png",
+          "title": "JavaScript",
+          "description": "Lenguaje de programación para interactividad web."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Backend",
+      "cards": [
+        {
+          "id": 1,
+          "logo": "php.png",
+          "title": "PHP",
+          "description": "Lenguaje de servidor para sitios web dinámicos."
+        },
+        {
+          "id": 2,
+          "logo": "python.png",
+          "title": "Python",
+          "description": "Lenguaje versátil para múltiples propósitos."
+        },
+        {
+          "id": 3,
+          "logo": "node.png",
+          "title": "Node.js",
+          "description": "Entorno de ejecución JavaScript para servidores."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Innovación y Gestión",
+      "cards": [
+        {
+          "id": 1,
+          "logo": "skills.png",
+          "title": "Habilidades",
+          "description": "Desarrollo de habilidades para trabajo en equipo y liderazgo."
+        },
+        {
+          "id": 2,
+          "logo": "agile.png",
+          "title": "Metodologías Ágiles",
+          "description": "Scrum y Kanban para gestión eficiente de proyectos."
+        },
+        {
+          "id": 3,
+          "logo": "testing.png",
+          "title": "Testing",
+          "description": "Pruebas de software para garantizar calidad."
+        }
+      ]
+    }
+  ]
+}

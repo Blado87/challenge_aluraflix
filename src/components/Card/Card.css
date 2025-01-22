@@ -1,32 +1,28 @@
-/* Estilo base */
 .card {
   width: 320px;
-  background-color: #1e293b; 
+  background-color: #1e293b;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   text-align: center;
-  color: #f1f5f9; 
+  color: #f1f5f9;
   font-family: 'Inter', sans-serif;
 }
 
-/* Encabezado */
 .card-header {
-  background-color: #a1a1aa;
+  background-color: #f0f0f0;
   padding: 20px;
 }
 
-.card-logo {  
-  width: 60px;
-  height: 60px;
+.card-logo {
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  font-size: 30px;  
+  font-size: 30px;
 }
 
-/* Cuerpo */
 .card-body {
   padding: 20px;
 }
@@ -43,7 +39,6 @@
   margin-bottom: 20px;
 }
 
-/* Botones */
 .card-buttons {
   display: flex;
   gap: 10px;
@@ -66,7 +61,7 @@
 
 .button-secondary {
   background: #facc15;
-  color: #1e293b; 
+  color: #1e293b;
   border: none;
   border-radius: 8px;
   padding: 10px 20px;
